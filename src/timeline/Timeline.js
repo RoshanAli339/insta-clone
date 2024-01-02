@@ -32,14 +32,14 @@ function Timeline() {
   ]); 
   return (
     <div className='timeline'>
-        <div class="timeline__left">
-            <div class="timeline__posts">
+        <div className="timeline__left">
+            <div className="timeline__posts">
                 {posts.map(post => (
                   <Post user={post.user} postImage={post.postImage} likes={post.likes} timestamp={post.timestamp}/>
                 ))}
             </div>
         </div>
-        <div class="timeline__right">
+        <div className="timeline__right">
             <Suggestion />
         </div>
     </div>

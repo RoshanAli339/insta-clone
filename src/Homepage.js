@@ -6,10 +6,10 @@ import Timeline from './timeline/Timeline'
 function Homepage() {
   return (
     <div className="homepage">
-        <div class="homepage__nav">
+        <div className="homepage__nav">
             <Sidenav />
         </div>
-        <div class="homepage__timeline">
+        <div className="homepage__timeline">
             <Timeline />
         </div>
     </div>
